@@ -8,3 +8,6 @@
 <ul>
   <li *ngFor="let name of names">{{name}}</li>
 </ul>
+<clipboard-component [content]="names.join(',')"></clipboard-component>
+
+<textarea cols="30" rows="30"></textarea>
